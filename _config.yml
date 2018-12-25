@@ -1,10 +1,10 @@
 # Site settings
-title: Comical Jekyll Theme
+title: Grottus
 email: 
 
 keywords: webcomic, comic
 description: > # this means to ignore newlines until "baseurl:"
-  A webcomic theme for jekyll.
+  Un comic bimensual sobre un niño llamado Grottus.
 
 
 baseurl: https://dieguitocollado.github.io/grott_dev
@@ -31,10 +31,10 @@ permalink: /:categories/:title/
 
 # Set default header image
 header: yes
-header_sm: images/banner-small.jpg
-header_med: images/banner-med.jpg
-header_large: images/banner-large.jpg
-header_xl: images/banner-xl.jpg
+header_sm: images/banner-large.svg
+header_med: images/banner-large.svg
+header_large: images/banner-large.svg
+header_xl: images/banner-large.svg
 
 ## Thumbnailer taken from https://github.com/chrisanthropic/jekyll-minimagick
 
