@@ -1,11 +1,11 @@
 {% if page.header%}
   <header role="banner">
-      <a href="{{ site.baseurl }}"><img src="{{ site.baseurl }}/{{ page.header_xl }}" srcset="{{ site.baseurl }}/{{ page.header_sm }} 200w, {{ site.baseurl }}/{{ page.header_med }} 641w, {{ site.baseurl }}/{{ page.header_large }} 1025w, {{ site.baseurl }}/{{ page.header_xl }} 1441w" alt="{{ site.title }} banner image" title="{{ site.title }} banner image" class="center"></a>
+      <a href="{{ site.baseurl }}"><img src="{{ site.baseurl }}/{{ site.header_xl }}" alt="{{ site.title }} banner image" title="{{ site.title }} banner image" class="center" style="max-width: 15%; height: auto;"></a>
   </header>
   
   {% elsif site.header %}
     <header role="banner">
-      <a href="{{ site.baseurl }}"><img src="{{ site.baseurl }}/{{ site.header_xl }}" alt="{{ site.title }} banner image" title="{{ site.title }} banner image" class="center" style="max-width: 15%; height: auto;"></a>
+      <a href="{{ site.baseurl }}"><img src="{{ site.baseurl }}/{{ site.header_xl }}" alt="{{ site.title }} banner image" title="{{ site.title }} banner image" class="center" style="max-width: 15%; height: auto; margin: 5%;"></a>
     </header>
   
   {% else %}
