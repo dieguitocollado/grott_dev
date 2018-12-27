@@ -34,7 +34,6 @@ end
 
 desc "deploy the site"
 task :deploy do
-  system "bundle exec s3_website push"
   system "bundle exec rake notify" #ping google/bing about our sitemap updates
 end
 
@@ -61,7 +60,7 @@ end
 
 # Ping Google and Yahoo to let them know you updated your site
 
-site = "www.YOUR-URL.com"
+site = "grottus.com"
 
 desc 'Notify Google of the new sitemap'
 task :sitemapgoogle do
