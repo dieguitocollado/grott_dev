@@ -17,12 +17,18 @@
     .hide-for-large {
       display:none 
     }
+	.first-comic {
+	    font-size: 0.5em;
+	}
 }
 
 @media screen and (max-width: 768px) {
   .hide-for-small {
     display: none;
   }
+  .first-comic {
+	    font-size: 0.5em;
+	}
 }
 
 .schedule {
