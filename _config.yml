@@ -29,6 +29,9 @@ permalink: /:categories/:title/
 #################################################
 ####CUSTOM
 
+plugins:
+  - jekyll-feed
+
 # Set default header image
 header: yes
 header_sm: images/banner-large.svg
